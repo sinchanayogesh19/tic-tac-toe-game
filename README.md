@@ -1,89 +1,105 @@
 # tic-tac-toe-game
 
-Project Title
+# Tic Tac Toe Game
 
-Tic-Tac-Toe Game
+## Overview
 
-Description
+Tic Tac Toe is a classic two-player strategy game played on a 3×3 grid. This project provides an interactive implementation where players take turns marking spaces with **X** and **O**. The game automatically detects wins, losses, and draws, offering an engaging gaming experience.
 
-The Tic-Tac-Toe Game is a simple and interactive two-player game developed using web technologies. Players take turns marking spaces in a 3×3 grid with "X" and "O". The objective is to place three of their symbols in a horizontal, vertical, or diagonal row before the opponent.
+## Features
 
-Features
+* Interactive and user-friendly interface
+* Two-player gameplay
+* Automatic win, loss, and draw detection
+* Game reset functionality
+* Lightweight and easy to use
+* Responsive game board
 
-Two-player gameplay.
-Interactive and user-friendly interface.
-Automatic winner detection.
-Draw game detection.
-Restart game functionality.
-Responsive design for different screen sizes.
+## Technologies Used
 
-Technologies Used
-Frontend: HTML, CSS, JavaScript
-IDE: Visual Studio Code
+### Desktop Application
 
-Project Structure
+* Python
+* Tkinter
+
+### Web Application
+
+* HTML
+* CSS
+* JavaScript
+
+## Game Rules
+
+1. The game is played on a 3×3 grid.
+2. One player uses **X**, and the other uses **O**.
+3. Players take turns placing their symbols in empty cells.
+4. The first player to align three symbols horizontally, vertically, or diagonally wins.
+5. If all cells are filled and no player wins, the game ends in a draw.
+
+## Project Objectives
+
+* Develop a simple and interactive game.
+* Demonstrate the use of event handling and conditional logic.
+* Enhance problem-solving and programming skills.
+* Provide an engaging user experience.
+
+## How to Play
+
+1. Launch the application.
+2. Player X makes the first move.
+3. Players alternate turns by selecting an empty cell.
+4. The game automatically checks for a winner after each move.
+5. If a player wins or the game ends in a draw, the result is displayed.
+6. Click **Reset** to start a new game.
+
+## Project Structure
+
+```text
 Tic-Tac-Toe/
 │
-├── index.html
-├── style.css
-├── script.js
+├── main.py
 ├── assets/
-│   └── images
 ├── README.md
+└── requirements.txt
+```
 
-How It Works
-Player 1 starts with X.
-Player 2 plays with O.
-Players take turns selecting empty cells on the board.
-The game checks for a winning combination after every move.
-If a player gets three symbols in a row, they win.
-If all cells are filled without a winner, the game ends in a draw.
+## Installation
 
-Installation
-Clone the repository: https://github.com/sinchanayogesh19/tic-tac-toe-game
-git clone 
-Navigate to the project directory:
-cd tic-tac-toe
-Open index.html in your preferred web browser.
+### Clone the Repository
 
-Usage
-Click on any empty cell to place your symbol.
-Alternate turns between players.
-View the winner announcement or draw message.
-Click the Restart button to start a new game.
+```bash
+git clone <repository-url>
+```
 
-Game Rules
-The game is played on a 3×3 grid.
-One player uses X and the other uses O.
-Players take turns marking empty spaces.
-The first player to align three symbols horizontally, vertically, or diagonally wins.
-If all nine spaces are filled without a winner, the game is declared a draw.
+### Navigate to the Project Directory
 
-Example
+```bash
+cd Tic-Tac-Toe
+```
 
- X | O | X
------------
- O | X | O
------------
- O | X | X
+### Run the Application
 
-Winner: Player X
+```bash
+python main.py
+```
 
-Future Enhancements
-Single-player mode with AI.
-Difficulty levels (Easy, Medium, Hard).
-Score tracking system.
-Sound effects and animations.
-Online multiplayer support.
+## Future Enhancements
 
-Learning Outcomes
+* Single-player mode with AI opponent
+* Difficulty levels (Easy, Medium, Hard)
+* Online multiplayer support
+* Score tracking system
+* Enhanced graphics and animations
+* Sound effects and themes
 
-Understanding DOM manipulation.
-Implementing game logic using JavaScript.
-Handling user events and interactions.
-Managing game state and conditions.
-Creating responsive and interactive web applications.
+## Learning Outcomes
 
-Conclusion
+* Understanding game development fundamentals
+* Implementing event-driven programming
+* Applying conditional statements and loops
+* Managing game states and user interactions
+* Designing graphical user interfaces
 
-The Tic-Tac-Toe Game is an excellent beginner-level project that demonstrates fundamental web development concepts, including HTML structure, CSS styling, and JavaScript-based game logic. It provides an engaging user experience while helping developers strengthen their programming and problem-solving skills.
+## Conclusion
+
+The Tic Tac Toe Game is a beginner-friendly project that demonstrates core programming concepts such as logic building, user interaction, and game state management. It serves as an excellent project for learning software development while creating an enjoyable and interactive gaming experience.
