@@ -40,7 +40,7 @@ If a player gets three symbols in a row, they win.
 If all cells are filled without a winner, the game ends in a draw.
 
 Installation
-Clone the repository:
+Clone the repository: https://github.com/sinchanayogesh19/tic-tac-toe-game
 git clone 
 Navigate to the project directory:
 cd tic-tac-toe
@@ -60,6 +60,7 @@ The first player to align three symbols horizontally, vertically, or diagonally 
 If all nine spaces are filled without a winner, the game is declared a draw.
 
 Example
+
  X | O | X
 -----------
  O | X | O
